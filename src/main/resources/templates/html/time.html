@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>index.html</title>
+	<meta charset="UTF-8">
+
+  <link rel="stylesheet" href="../static/css/time.css" />
+  <script src="../static/js/jquery-3.2.1.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var myArray = new Array();
+    });
+
+    function changeBack(x, y) {
+      var classPos = 'class' + x + y;
+      var className = '\"' + "\." + classPos + "\"";
+      switch (classPos) {
+        case 'class11':
+          $(".class11").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class12':
+          $(".class12").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class13':
+          $(".class13").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class14':
+          $(".class14").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class15':
+          $(".class15").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class16':
+          $(".class16").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class17':
+          $(".class17").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+
+        case 'class21':
+          $(".class21").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class22':
+          $(".class22").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class23':
+          $(".class23").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class24':
+          $(".class24").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class25':
+          $(".class25").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class26':
+          $(".class26").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class27':
+          $(".class27").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+
+        case 'class31':
+          $(".class31").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class32':
+          $(".class32").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class33':
+          $(".class33").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class34':
+          $(".class34").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class35':
+          $(".class35").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class36':
+          $(".class36").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class37':
+          $(".class37").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+
+        case 'class41':
+          $(".class41").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class42':
+          $(".class42").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class43':
+          $(".class43").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class44':
+          $(".class44").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class45':
+          $(".class45").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class46':
+          $(".class46").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class47':
+          $(".class47").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+
+        case 'class51':
+          $(".class51").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class52':
+          $(".class52").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class53':
+          $(".class53").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class54':
+          $(".class54").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class55':
+          $(".class55").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class56':
+          $(".class56").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+        case 'class57':
+          $(".class57").css("background-color", "rgba(0,255,0,0.5)");
+          break;
+      }
+    }
+
+    function changeBackD(x, y) {
+      var classPos = 'class' + x + y;
+      switch (classPos) {
+        case 'class11':
+          $(".class11").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class12':
+          $(".class12").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class13':
+          $(".class13").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class14':
+          $(".class14").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class15':
+          $(".class15").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class16':
+          $(".class16").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class17':
+          $(".class17").css("background-color", "rgba(0,255,0,0)");
+          break;
+
+        case 'class21':
+          $(".class21").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class22':
+          $(".class22").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class23':
+          $(".class23").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class24':
+          $(".class24").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class25':
+          $(".class25").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class26':
+          $(".class26").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class27':
+          $(".class27").css("background-color", "rgba(0,255,0,0)");
+          break;
+
+        case 'class31':
+          $(".class31").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class32':
+          $(".class32").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class33':
+          $(".class33").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class34':
+          $(".class34").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class35':
+          $(".class35").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class36':
+          $(".class36").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class37':
+          $(".class37").css("background-color", "rgba(0,255,0,0)");
+          break;
+
+        case 'class41':
+          $(".class41").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class42':
+          $(".class42").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class43':
+          $(".class43").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class44':
+          $(".class44").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class45':
+          $(".class45").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class46':
+          $(".class46").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class47':
+          $(".class47").css("background-color", "rgba(0,255,0,0)");
+          break;
+
+        case 'class51':
+          $(".class51").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class52':
+          $(".class52").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class53':
+          $(".class53").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class54':
+          $(".class54").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class55':
+          $(".class55").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class56':
+          $(".class56").css("background-color", "rgba(0,255,0,0)");
+          break;
+        case 'class57':
+          $(".class57").css("background-color", "rgba(0,255,0,0)");
+          break;
+      }
+
+    }
+
+    myArray = new Array();
+
+    function addPos(tempPos) {
+      if (myArray.indexOf(tempPos) >= 0) {} else {
+        myArray.push(tempPos);
+      }
+      console.log(myArray);
+    }
+
+    function deletePos(tempPos) {
+      myArray.splice($.inArray(tempPos, myArray), 1);
+      console.log(myArray);
+    }
+
+
+  </script>
+
+</head>
+
+<body>
+  <div class='max'>
+
+    <div class='schedual'>
+      <table class='schedualtable'>
+
+        <thead>
+          <tr>
+            <td class='threadsmalltd'></td>
+            <td class='threadbigtd'>星期一</td>
+            <td class='threadbigtd'>星期二</td>
+            <td class='threadbigtd'>星期三</td>
+            <td class='threadbigtd'>星期四</td>
+            <td class='threadbigtd'>星期五</td>
+            <td class='threadbigtd'>星期六</td>
+            <td class='threadbigtd'>星期日</td>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+
+            <td class='tbodysmalltd'>
+              <div>第一讲</div>
+            </td>
+
+            <td class='tbodybigtd class11' onclick="changeBack('1','1'),addPos('class11')" ondblclick="changeBackD('1','1'),deletePos('class11')">
+              <div>第一讲</div>
+            </td>
+
+            <td class='tbodybigtd class12' onclick="changeBack('1','2'),addPos('class12')" ondblclick="changeBackD('1','2'),deletePos('class12')">
+              <div>第一讲</div>
+            </td>
+
+            <td class='tbodybigtd class13' onclick="changeBack('1','3'),addPos('class13')" ondblclick="changeBackD('1','3'),deletePos('class13')">
+              <div>第一讲</div>
+            </td>
+
+            <td class='tbodybigtd class14' onclick="changeBack('1','4'),addPos('class14')" ondblclick="changeBackD('1','4'),deletePos('class14')">
+              <div>第一讲</div>
+            </td>
+
+            <td class='tbodybigtd class15' onclick="changeBack('1','5'),addPos('class15')" ondblclick="changeBackD('1','5'),deletePos('class15')">
+              <div>第一讲</div>
+            </td>
+
+            <td class='tbodybigtd class16' onclick="changeBack('1','6'),addPos('class16')" ondblclick="changeBackD('1','6'),deletePos('class16')">
+              <div>第一讲</div>
+            </td>
+
+            <td class='tbodybigtd class17' onclick="changeBack('1','7'),addPos('class17')" ondblclick="changeBackD('1','7'),deletePos('class17')">
+              <div>第一讲</div>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td class='tbodysmalltd'>
+              <div>第二讲</div>
+            </td>
+
+            <td class='tbodybigtd class21' onclick="changeBack('2','1'),addPos('class21')" ondblclick="changeBackD('2','1'),deletePos('class21')">
+              <div>第二讲</div>
+            </td>
+
+            <td class='tbodybigtd class22' onclick="changeBack('2','2'),addPos('class22')" ondblclick="changeBackD('2','2'),deletePos('class22')">
+              <div>第二讲</div>
+            </td>
+
+            <td class='tbodybigtd class23' onclick="changeBack('2','3'),addPos('class23')" ondblclick="changeBackD('2','3'),deletePos('class23')">
+              <div>第二讲</div>
+            </td>
+
+            <td class='tbodybigtd class24' onclick="changeBack('2','4'),addPos('class24')" ondblclick="changeBackD('2','4'),deletePos('class24')">
+              <div>第二讲</div>
+            </td>
+
+            <td class='tbodybigtd class25' onclick="changeBack('2','5'),addPos('class25')" ondblclick="changeBackD('2','5'),deletePos('class25')">
+              <div>第二讲</div>
+            </td>
+
+            <td class='tbodybigtd class26' onclick="changeBack('2','6'),addPos('class26')" ondblclick="changeBackD('2','6'),deletePos('class26')">
+              <div>第二讲</div>
+            </td>
+
+            <td class='tbodybigtd class27' onclick="changeBack('2','7'),addPos('class27')" ondblclick="changeBackD('2','7'),deletePos('class27')">
+              <div>第二讲</div>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td class='tbodysmalltd'>
+              <div>第三讲</div>
+            </td>
+
+            <td class='tbodybigtd class31' onclick="changeBack('3','1'),addPos('class31')" ondblclick="changeBackD('3','1'),deletePos('class31')">
+              <div>第三讲</div>
+            </td>
+
+            <td class='tbodybigtd class32' onclick="changeBack('3','2'),addPos('class32')" ondblclick="changeBackD('3','2'),deletePos('class32')">
+              <div>第三讲</div>
+            </td>
+
+            <td class='tbodybigtd class33' onclick="changeBack('3','3'),addPos('class33')" ondblclick="changeBackD('3','3'),deletePos('class33')">
+              <div>第三讲</div>
+            </td>
+
+            <td class='tbodybigtd class34' onclick="changeBack('3','4'),addPos('class34')" ondblclick="changeBackD('3','4'),deletePos('class34')">
+              <div>第三讲</div>
+            </td>
+
+            <td class='tbodybigtd class35' onclick="changeBack('3','5'),addPos('class35')" ondblclick="changeBackD('3','5'),deletePos('class35')">
+              <div>第三讲</div>
+            </td>
+
+            <td class='tbodybigtd class36' onclick="changeBack('3','6'),addPos('class36')" ondblclick="changeBackD('3','6'),deletePos('class36')">
+              <div>第三讲</div>
+            </td>
+
+            <td class='tbodybigtd class37' onclick="changeBack('3','7'),addPos('class37')" ondblclick="changeBackD('3','7'),deletePos('class37')">
+              <div>第三讲</div>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td class='tbodysmalltd'>
+              <div>第四讲</div>
+            </td>
+
+            <td class='tbodybigtd class41' onclick="changeBack('4','1'),addPos('class41')" ondblclick="changeBackD('4','1'),deletePos('class41')">
+              <div>第四讲</div>
+            </td>
+
+            <td class='tbodybigtd class42' onclick="changeBack('4','2'),addPos('class42')" ondblclick="changeBackD('4','2'),deletePos('class42')">
+              <div>第四讲</div>
+            </td>
+
+            <td class='tbodybigtd class43' onclick="changeBack('4','3'),addPos('class43')" ondblclick="changeBackD('4','3'),deletePos('class43')">
+              <div>第四讲</div>
+            </td>
+
+            <td class='tbodybigtd class44' onclick="changeBack('4','4'),addPos('class44')" ondblclick="changeBackD('4','4'),deletePos('class44')">
+              <div>第四讲</div>
+            </td>
+
+            <td class='tbodybigtd class45' onclick="changeBack('4','5'),addPos('class45')" ondblclick="changeBackD('4','5'),deletePos('class45')">
+              <div>第四讲</div>
+            </td>
+
+            <td class='tbodybigtd class46' onclick="changeBack('4','6'),addPos('class46')" ondblclick="changeBackD('4','6'),deletePos('class46')">
+              <div>第四讲</div>
+            </td>
+
+            <td class='tbodybigtd class47' onclick="changeBack('4','7'),addPos('class47')" ondblclick="changeBackD('4','7'),deletePos('class47')">
+              <div>第四讲</div>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td class='tbodysmalltd'>
+              <div>第五讲</div>
+            </td>
+
+            <td class='tbodybigtd class51' onclick="changeBack('5','1'),addPos('class51')" ondblclick="changeBackD('5','1'),deletePos('class51')">
+              <div>第五讲</div>
+            </td>
+
+            <td class='tbodybigtd class52' onclick="changeBack('5','2'),addPos('class52')" ondblclick="changeBackD('5','2'),deletePos('class52')">
+              <div>第五讲</div>
+            </td>
+
+            <td class='tbodybigtd class53' onclick="changeBack('5','3'),addPos('class53')" ondblclick="changeBackD('5','3'),deletePos('class53')">
+              <div>第五讲</div>
+            </td>
+
+            <td class='tbodybigtd class54' onclick="changeBack('5','4'),addPos('class54')" ondblclick="changeBackD('5','4'),deletePos('class54')">
+              <div>第五讲</div>
+            </td>
+
+            <td class='tbodybigtd class55' onclick="changeBack('5','5'),addPos('class55')" ondblclick="changeBackD('5','5'),deletePos('class55')">
+              <div>第五讲</div>
+            </td>
+
+            <td class='tbodybigtd class56' onclick="changeBack('5','6'),addPos('class56')" ondblclick="changeBackD('5','6'),deletePos('class56')">
+              <div>第五讲</div>
+            </td>
+
+            <td class='tbodybigtd class57' onclick="changeBack('5','7'),addPos('class57')" ondblclick="changeBackD('5','7'),deletePos('class57')">
+              <div>第五讲</div>
+            </td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+  <div class="advice">
+    <button type="submit" class='loginbutton'>千万不要按</button>
+  </div>
+
+
+</body>
+
+</html>
